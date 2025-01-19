@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor", "Blazor\Blazor.csproj", "{6256444E-5344-4F91-BD1A-242D9CB442B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{9F58AD5B-F997-47B4-9E7D-FA725064206B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Components", "Components\Components.csproj", "{11EF2D57-2C4A-46FD-AF43-AD271FC5BF13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6256444E-5344-4F91-BD1A-242D9CB442B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6256444E-5344-4F91-BD1A-242D9CB442B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6256444E-5344-4F91-BD1A-242D9CB442B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6256444E-5344-4F91-BD1A-242D9CB442B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F58AD5B-F997-47B4-9E7D-FA725064206B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F58AD5B-F997-47B4-9E7D-FA725064206B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F58AD5B-F997-47B4-9E7D-FA725064206B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F58AD5B-F997-47B4-9E7D-FA725064206B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11EF2D57-2C4A-46FD-AF43-AD271FC5BF13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11EF2D57-2C4A-46FD-AF43-AD271FC5BF13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11EF2D57-2C4A-46FD-AF43-AD271FC5BF13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11EF2D57-2C4A-46FD-AF43-AD271FC5BF13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

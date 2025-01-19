@@ -1,0 +1,12 @@
+﻿<MudThemeProvider />
+<MudPopoverProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+<Router AppAssembly="@typeof(App).Assembly">
+    <Found Context="routeData">
+        <RouteView RouteData="@routeData" />
+    </Found>
+    <NotFound>
+        <Blazor.Pages.NotFound></Blazor.Pages.NotFound>
+    </NotFound>
+</Router>

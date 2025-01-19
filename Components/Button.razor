@@ -1,0 +1,30 @@
+<button class="@CssClass" @onclick="OnClick">
+	@ChildContent
+</button>
+
+<style>
+	.default-button {
+		padding: 10px 20px;
+		background-color: #007bff;
+		color: white;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+		font-size: 16px;
+	}
+
+		.default-button:hover {
+			background-color: #0056b3;
+		}
+</style>
+
+@code {
+	[Parameter]
+	public string CssClass { get; set; } = "default-button";
+
+	[Parameter]
+	public EventCallback<MouseEventArgs> OnClick { get; set; }
+
+	[Parameter]
+	public RenderFragment? ChildContent { get; set; }
+}
